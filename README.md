@@ -18,7 +18,7 @@ You can check if you have node by typing "node -v", you can check if you have re
 
 If local host webpage looks like a giant paragraph that makes no sense, then you might need to download a json viewer extension for whatever browser you are using. I use google chrome and I had to download JSONVue extension
 
-4)change your directory in the terminal to C:\ ... \Project-0\frontend
+4)open another terminal, change your directory in the terminal to C:\ ... \Project-0\frontend
 
 5)start the frontend (React) type "npm start" into the terminal, The react app will pop up a tab for you in the browser that is our website
 
