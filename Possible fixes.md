@@ -7,9 +7,9 @@ I am not sure if any of this will work for you guys but its worth a shot to see 
 some things I saw when I went through the video again that may or may not help
 - you can try install these in your terminal and then try to "npm start"
 
-- 1) npm install bootstrap
-- 2) npm install axios
-- 3) npm react-router-dom
-    ->also try to uninstall npm react-router-dom
-    ->then try to install npm react-router-dom@5
-    ->or try to install npm-react-router-dom@5.2.0
+- npm install bootstrap
+- npm install axios
+- npm react-router-dom
+    - also try to uninstall npm react-router-dom
+    - then try to install npm react-router-dom@5
+    - or try to install npm-react-router-dom@5.2.0
