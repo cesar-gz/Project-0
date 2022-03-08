@@ -17,7 +17,7 @@ open a terminal, change your directory in the terminal to C:\ ... \Project-0\fro
 
 
 ### Before you start working on your task:
-- type "git branch task01" into terminal, to create a branch called task01 (or call it whatever you want), that is the exact copy of the master branch
+- type "git branch task01" into terminal, to create a branch called task01 (or call it whatever you want), that is the exact copy of the main branch
 
 - type "git checkout task01" into terminal, this will switch you to the task01 branch
 
