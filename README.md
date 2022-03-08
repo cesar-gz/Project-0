@@ -6,19 +6,12 @@
 1)type "git pull" in the terminal, when you are in the C:\ ... \Project-0 directory
 
 ### How to get the website to run:
-I think you have to download node and react onto your computer
+you can login to our MongoDB page to look at our backend
 
-You can check if you have node by typing "node -v", you can check if you have react by typing "npm -v"
+username:cesarg7@csu.fullerton.edu 
+password:Zammy7230!
 
-1)change your directory in the terminal to C:\ ... \Project-0\backend
-
-2)start the backend (node.js and express) by typing "nodemon server" into the terminal
-
-3)you can type "localhost:5000/api/v1/restaurants" into your browser to see the data in our database, or login to our MongoDB page to look at it (username:cesarg7@csu.fullerton.edu password:Zammy7230!)
-
-If local host webpage looks like a giant paragraph that makes no sense, then you might need to download a json viewer extension for whatever browser you are using. I use google chrome and I had to download JSONVue extension
-
-4)open another terminal, change your directory in the terminal to C:\ ... \Project-0\frontend
+open a terminal, change your directory in the terminal to C:\ ... \Project-0\frontend
 
 5)start the frontend (React) type "npm start" into the terminal, The react app will pop up a tab for you in the browser that is our website
 
