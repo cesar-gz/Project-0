@@ -32,3 +32,5 @@ open a terminal, change your directory in the terminal to C:\ ... \Project-0\fro
     - click "Create Pull Request", then, "Merge Pull Request", then "Confirm Merge", then "Delete Branch"
 
     - This will add the task01 branch code to the master branch so everyone can get the new code
+
+(Remember to delete this part)
