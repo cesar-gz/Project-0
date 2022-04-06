@@ -5,6 +5,7 @@ import RestaurantsDAO from "./dao/restaurantsDAO.js"
 import ReviewsDAO from "./dao/reviewsDAO.js"
 dotenv.config()
 const MongoClient = mongodb.MongoClient
+// remember to figure out why port 3000/home doesnt work
 
 const port = process.env.PORT || 8000
 
