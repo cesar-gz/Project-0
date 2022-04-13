@@ -69,13 +69,13 @@ static async getRestaurantById(id){
                     $lookup: {
                         from: "reviews",
                         let: {
-                            id: "$ id",
+                            id: "$_id",
                         },
                         pipeline: [
                             {
                                 $match: {
                                     $expr: {
-                                        $eq: ["restaurant_id", "$$id"],
+                                        $eq: ["$restaurant_id", "$$id"],
                                     },
                                 },
                             },
@@ -109,6 +109,6 @@ static async getCuisines(){
     } catch (e){
         console.error('Unable to get cuisines, ${e}')
         return cuisines
+        }
     }
-}
 }

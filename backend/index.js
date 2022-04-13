@@ -5,7 +5,7 @@ import RestaurantsDAO from "./dao/restaurantsDAO.js"
 import ReviewsDAO from "./dao/reviewsDAO.js"
 dotenv.config()
 const MongoClient = mongodb.MongoClient
-// remember to figure out why port 3000/home doesnt work
+
 
 const port = process.env.PORT || 8000
 
@@ -14,7 +14,11 @@ MongoClient.connect(
     {
         maxPoolSize: 50, 
         wtimeoutMS: 2500,
-        useNewUrlParser: true }
+        useNewUrlParser: true
+        //useUnifiedTopology: true,
+        //w: "majority",
+        //family: 4 
+    }
 )
 .catch(err =>{
     console.error(err.stack)
