@@ -38,8 +38,8 @@ open a terminal, change your directory in the terminal to C:\ ... \Project-0\fro
 (Remember to delete this part)
 
 #### Dependencies:
--CORS
--DOTENV
--Bootstrap
--Axios
--React Router Dom
+    - CORS
+    - DOTENV
+    - Bootstrap
+    - Axios
+    - React Router Dom
