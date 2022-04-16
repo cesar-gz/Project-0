@@ -1,5 +1,5 @@
 import ReviewsDAO from "../dao/reviewsDAO.js"
-//fix the add review and delete review
+
 export default class ReviewsController {
   static async apiPostReview(req, res, next) {
     try {
