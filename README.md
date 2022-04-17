@@ -1,5 +1,5 @@
 
-## Instructions on how to get working on website
+## Instructions on how to get working on website.
 
 Our Website:
 
