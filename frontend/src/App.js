@@ -6,6 +6,7 @@ import AddReview from "./components/add-review";
 import Restaurant from "./components/restaurants";
 import RestaurantsList from "./components/restaurants-list";
 import Login from "./components/login";
+import Spinwheel from "./components/spinwheel";
 
 function App() {
   const [user, setUser] = React.useState(null);
@@ -45,8 +46,14 @@ function App() {
               Login
             </Link>
             )}
-
           </li>
+           
+           <li className="nav-item" >
+            <Link to={"/spinwheel"} className="nav-link">
+              Spinwheel
+            </Link>
+          </li>
+          
         </div>
       </nav>
 
