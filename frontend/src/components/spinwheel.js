@@ -9,7 +9,8 @@ const Spinwheel = props => {
  
 //need to create a spinwheel and link the different sections of the spinwheel to elements in the list that will grow as the user adds restaurants 
 
-
+//button will be added to restaurants tab where the user will be able to click "add to wheel" which will then add that restaurant to the empty list
+//once five restaurants are chosen, the spinwheel will be full and ready to use 
 
 
 };
