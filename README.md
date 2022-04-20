@@ -3,7 +3,7 @@
 
 Our Website:
 
-(not currently active)
+(does not have most up to date code)
 https://restaurant-roulette-ghuzh.mongodbstitch.com/
 ### How to get the most recent code everytime before you begin your task:
 type "git pull" in the terminal, when you are in the C:\ ... \Project-0 directory
@@ -12,7 +12,8 @@ type "git pull" in the terminal, when you are in the C:\ ... \Project-0 director
 
 1) In one terminal, go to C:\ ... \Project-0\backend directory, type "nodemon server"
 2) In another terminal, go to C:\ ... \Project-0\frontend directory, type "npm start"
-Our website will pop up in a new tab
+
+Our website will then pop up in a new tab
 
 you can login to our MongoDB page to look at our backend
 
