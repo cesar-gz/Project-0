@@ -4,13 +4,18 @@ import { Link } from "react-router-dom";
 
 const Spinwheel = props => {
 
-//creating an empty list which will be filled fom the restaurants the users choose 
- let spinwheel = [];
- 
-//need to create a spinwheel and link the different sections of the spinwheel to elements in the list that will grow as the user adds restaurants 
+function rotateFunction(){
+  var min = 1024;
+  var max = 9999;
+  var deg = Math.floor(Math.random() * (max - min)) + min;
+  document.getElementById('box').style.transform = "rotate("+deg+"deg)";
+  var element = document.getElementById('mainbox');
+  element.classList.remove('animate');
+   setTimeout(function(){
+    element.classList.add('animate');
+  }, 5000);
+}
 
-//button will be added to restaurants tab where the user will be able to click "add to wheel" which will then add that restaurant to the empty list
-//once five restaurants are chosen, the spinwheel will be full and ready to use 
 
 
 };
