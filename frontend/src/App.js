@@ -78,6 +78,14 @@ function App() {
               <Login {...props} login={login} />
             )}
           />
+
+          <Route 
+            path="/spinwheel"
+            render={(props) => (
+              <Spinwheel {...props} user={user} />
+            )}
+          />
+
         </Switch>
       </div>
     </div>

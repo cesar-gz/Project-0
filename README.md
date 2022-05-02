@@ -36,6 +36,9 @@ you can login to our MongoDB page to look at our backend
     - click "Create Pull Request", then, "Merge Pull Request", then "Confirm Merge", then "Delete Branch"
 
     - This will add the task01 branch code to the master branch so everyone can get the new code
+
+### References
+- Our Scrum GoogleSheet https://docs.google.com/spreadsheets/d/12aRHzNKM2NZVCQUs7e6qWHEX-ZE_hBW6Qd6rnPpr9ag/edit#gid=1894427315
 #### Dependencies:
     - CORS
     - DOTENV
