@@ -1,10 +1,11 @@
 
 ## Instructions on how to get working on website.
 
-Our Website:
+### How we used Scrum
 
-(does not have most up to date code)
-https://restaurant-roulette-ghuzh.mongodbstitch.com/
+Our Google Sheets holds our Product Backlog, Sprint Backlog, Retrospectives, and more rituals and artifacts from Scrum
+
+https://docs.google.com/spreadsheets/d/12aRHzNKM2NZVCQUs7e6qWHEX-ZE_hBW6Qd6rnPpr9ag/edit#gid=702652394
 ### How to get the most recent code everytime before you begin your task:
 type "git pull" in the terminal, when you are in the C:\ ... \Project-0 directory
 
@@ -42,3 +43,6 @@ you can login to our MongoDB page to look at our backend
     - Bootstrap
     - Axios
     - React Router Dom
+
+#### Inspired by freeCodeCamp's MERN Stack Course
+https://www.youtube.com/watch?v=mrHNSanmqQ4&t=6474s
