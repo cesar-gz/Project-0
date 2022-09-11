@@ -11,8 +11,8 @@ type "git pull" in the terminal, when you are in the C:\ ... \Project-0 director
 
 ### How to get the website to run:
 
-1) In one terminal, go to C:\ ... \Project-0\backend directory, type "nodemon server"
-2) In another terminal, go to C:\ ... \Project-0\frontend directory, type "npm start"
+1) In one terminal, go to C:\ ... \RestaurantRoulette\backend directory, type "nodemon server"
+2) In another terminal, go to C:\ ... \RestaurantRoulette\frontend directory, type "npm start"
 
 Our website will then pop up in a new tab
 
