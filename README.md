@@ -7,12 +7,12 @@ Our Google Sheets holds our Product Backlog, Sprint Backlog, Retrospectives, and
 
 https://docs.google.com/spreadsheets/d/12aRHzNKM2NZVCQUs7e6qWHEX-ZE_hBW6Qd6rnPpr9ag/edit#gid=702652394
 ### How to get the most recent code everytime before you begin your task:
-type "git pull" in the terminal, when you are in the C:\ ... \Project-0 directory
+type "git pull" in the terminal, when you are in the C:\ ... \RestaurantRoulette directory
 
 ### How to get the website to run:
 
-1) In one terminal, go to C:\ ... \Project-0\backend directory, type "nodemon server"
-2) In another terminal, go to C:\ ... \Project-0\frontend directory, type "npm start"
+1) In one terminal, go to C:\ ... \RestaurantRoulette\backend directory, type "nodemon server"
+2) In another terminal, go to C:\ ... \RestaurantRoulette\frontend directory, type "npm start"
 
 Our website will then pop up in a new tab
 
